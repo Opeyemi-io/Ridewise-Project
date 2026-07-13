@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Opeyemi/DataScience/Ridewise-Project/src/mlruns/1/models/m-efa69ed2a5844a128ea434bdada52723/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-efa69ed2a5844a128ea434bdada52723
+model_size_bytes: 37101
+model_uuid: m-efa69ed2a5844a128ea434bdada52723
+prompts: null
+run_id: 8eca6d0089c94231a74e474cdece4cee
+utc_time_created: '2026-07-13 23:26:38.229723'
