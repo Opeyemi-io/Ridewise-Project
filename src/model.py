@@ -10,6 +10,8 @@ from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import RandomizedSearchCV, train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+from xgboost import XGBClassifier
+import mlflow.xgboost
 
 try:
     from xgboost import XGBClassifier

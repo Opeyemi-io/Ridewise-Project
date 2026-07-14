@@ -12,7 +12,7 @@ About MLFLOW
 
 6) MLflow is framework-agnostic because it works the same way whether the model is scikit-learn, XGBoost, PyTorch, TensorFlow, or even a custom Python function, via a unified "flavor" system, so teams aren't locked into one ML library just to get tracking benefits.
 
-8) Every run automatically logs "artifacts" beyond just metrics — this includes the model file itself, plots, config files, and even the exact conda/pip environment used, which is what actually makes a run reproducible months later, not just the metric numbers.
+8) Every run automatically logs "artifacts" beyond just metrics this includes the model file itself, plots, config files, and even the exact conda/pip environment used, which is what actually makes a run reproducible months later, not just the metric numbers.
 
-9) MLflow supports autologging — for popular libraries (scikit-learn, XGBoost, LightGBM), calling mlflow.autolog() automatically records hyperparameters, metrics, and the model with zero manual logging code, which lowers the barrier to consistent tracking across a team.
+9) MLflow supports autologging for popular libraries (scikit-learn, XGBoost, LightGBM), calling mlflow.autolog() automatically records hyperparameters, metrics, and the model with zero manual logging code, which lowers the barrier to consistent tracking across a team.
 
