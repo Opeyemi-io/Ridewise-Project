@@ -1,0 +1,10 @@
+ridewise-venv/
+__pycache__/
+*.pyc
+.env
+.git/
+.gitignore
+notebook/
+ridewise project dataset/
+models/
+*.ipynb
