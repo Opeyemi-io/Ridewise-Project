@@ -9,7 +9,7 @@ from pydantic import BaseModel, Field
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-MODEL_PATH = PROJECT_ROOT / "models" / "random_forest.joblib"
+MODEL_PATH = PROJECT_ROOT / 'models/random_forest.joblib'
 
 
 model = joblib.load(MODEL_PATH)
