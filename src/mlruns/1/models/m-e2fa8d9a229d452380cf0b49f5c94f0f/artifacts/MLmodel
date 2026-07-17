@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/Opeyemi/DataScience/Ridewise-Project/src/mlruns/1/models/m-e2fa8d9a229d452380cf0b49f5c94f0f/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.9
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.14.0
+model_id: m-e2fa8d9a229d452380cf0b49f5c94f0f
+model_size_bytes: 353661
+model_uuid: m-e2fa8d9a229d452380cf0b49f5c94f0f
+prompts: null
+run_id: 7244dbf9079344968c7af1bbc1a5468e
+utc_time_created: '2026-07-14 16:31:57.120330'
